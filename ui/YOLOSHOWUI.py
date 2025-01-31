@@ -21,7 +21,7 @@ from PySide6.QtWidgets import (QApplication, QCheckBox, QDoubleSpinBox, QFrame,
     QSpacerItem, QSpinBox, QSplitter, QVBoxLayout,
     QWidget)
 
-from qfluentwidgets import ComboBox
+from PySide6.QtWidgets import QComboBox as ComboBox
 from ui.utils.UpdateFrame import DoubleClickQFrame
 import YOLOSHOWUI_rc
 
